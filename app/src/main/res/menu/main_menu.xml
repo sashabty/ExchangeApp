@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_menu_popular"
+        android:icon="@drawable/selector_popular"
+        android:title="@string/menu_popular" />
+
+    <item
+        android:id="@+id/main_menu_favourite"
+        android:icon="@drawable/selector_favourite"
+        android:title="@string/menu_favourite" />
+
+</menu>

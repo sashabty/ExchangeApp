@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/sort_selection_alphabet_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/base_margin"
+        android:text="@string/sort_selection_alphabet_title"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/sort_selection_alphabet_asc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/base_margin"
+        android:layout_marginTop="@dimen/item_margin"
+        android:text="@string/sort_selection_ascending"
+        android:textColor="@color/grey"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sort_selection_alphabet_title" />
+
+    <CheckBox
+        android:id="@+id/sort_selection_alphabet_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/base_margin"
+        android:layout_marginTop="@dimen/item_margin"
+        android:text="@string/sort_selection_descending"
+        android:textColor="@color/grey"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sort_selection_alphabet_asc" />
+
+    <TextView
+        android:id="@+id/sort_selection_value_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/base_margin"
+        android:text="@string/sort_selection_value_title"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sort_selection_alphabet_desc" />
+
+    <CheckBox
+        android:id="@+id/sort_selection_value_asc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/base_margin"
+        android:layout_marginTop="@dimen/item_margin"
+        android:text="@string/sort_selection_ascending"
+        android:textColor="@color/grey"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sort_selection_value_title" />
+
+    <CheckBox
+        android:id="@+id/sort_selection_value_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/base_margin"
+        android:layout_marginTop="@dimen/item_margin"
+        android:text="@string/sort_selection_descending"
+        android:textColor="@color/grey"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sort_selection_value_asc" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

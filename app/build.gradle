@@ -1,0 +1,70 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "com.bty.android.exchangeapp"
+        minSdk 21
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures.viewBinding true
+}
+
+dependencies {
+    implementation "androidx.core:core-ktx:$versions.kotlinVersion"
+
+    implementation "androidx.appcompat:appcompat:$versions.appCompatVersion"
+    implementation "com.google.android.material:material:$versions.materialVersion"
+    implementation "androidx.constraintlayout:constraintlayout:$versions.constraintVersion"
+    implementation "androidx.recyclerview:recyclerview:$versions.recyclerVersion"
+
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$versions.coroutinesVersion"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutinesVersion"
+
+    implementation "androidx.activity:activity-ktx:$versions.activityKtxVersion"
+    implementation "androidx.fragment:fragment-ktx:$versions.fragmentKtxVersion"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:$versions.lifecycleKtxVersion"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$versions.lifecycleVMVersion"
+
+    kapt "androidx.room:room-compiler:$versions.roomVersion"
+    implementation("androidx.room:room-runtime:$versions.roomVersion")
+    implementation "androidx.room:room-ktx:$versions.roomVersion"
+//    annotationProcessor "androidx.room:room-compiler:$versions.roomVersion"
+
+    implementation "com.squareup.retrofit2:retrofit:$versions.retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-moshi:$versions.retrofitVersion"
+    implementation "com.squareup.moshi:moshi-kotlin:$versions.moshiVersion"
+    implementation "com.squareup.moshi:moshi-adapters:$versions.moshiVersion"
+    kapt "com.squareup.moshi:moshi-kotlin-codegen:$versions.moshiVersion"
+
+    implementation "com.google.dagger:dagger:$versions.daggerVersion"
+    kapt "com.google.dagger:dagger-compiler:$versions.daggerCompilerVersion"
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+}

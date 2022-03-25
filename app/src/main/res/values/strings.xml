@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ExchangeApp</string>
+
+    <string name="menu_popular">Популярное</string>
+    <string name="menu_favourite">Избранное</string>
+
+    <string name="network_result_failure_server">Ошибка сервера при запросе</string>
+    <string name="network_result_failure_client">Ошибка клиента при запросе</string>
+    <string name="network_result_failure_unknown">Неизвестная ошибка при попытке запроса </string>
+
+    <string name="popular_currencies_loading">Загружаем валюты…</string>
+    <string name="popular_currencies_empty">Нет доступных валют. Повторите запрос.</string>
+    <string name="popular_currencies_failed">Ошибка при загрузке валют: %s</string>
+    <string name="popular_currencies_try_again">Заново</string>
+
+    <string name="pairs_list_empty_holder">Не удалось загрузить пары валют</string>
+    <string name="pairs_list_failure_holder">Ошибка при загрузке валютных пар: %s</string>
+    <string name="pairs_list_empty_try_again">Попробовать снова</string>
+
+    <string name="pairs_list_favourites_empty_holder">Нет избранных пар для выбранной валюты</string>
+    
+    <string name="sort_selection_alphabet_title">Сортировка по алфавиту</string>
+    <string name="sort_selection_value_title">Сорировка по значению</string>
+    <string name="sort_selection_ascending">по возрастанию</string>
+    <string name="sort_selection_descending">по убыванию</string>
+
+</resources>

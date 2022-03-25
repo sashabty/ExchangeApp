@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_favourite.xml" value="0.1405" />
+        <entry key="app/src/main/res/drawable/ic_favourite_selected.xml" value="0.1405" />
+        <entry key="app/src/main/res/drawable/ic_list_round.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_popular.xml" value="0.1405" />
+        <entry key="app/src/main/res/drawable/ic_popular_selected.xml" value="0.1405" />
+        <entry key="app/src/main/res/drawable/ic_refresh.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_sort.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_sort_round.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_star_deselected.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_star_selected.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ripple_favourite_selected.xml" value="0.1195" />
+        <entry key="app/src/main/res/drawable/ripple_star_deselected.xml" value="0.1195" />
+        <entry key="app/src/main/res/drawable/ripple_star_selected.xml" value="0.1195" />
+        <entry key="app/src/main/res/drawable/selector_favourite.xml" value="0.1405" />
+        <entry key="app/src/main/res/drawable/selector_popular.xml" value="0.1405" />
+        <entry key="app/src/main/res/drawable/selector_star.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2994791666666667" />
+        <entry key="app/src/main/res/layout/fragment_favourite.xml" value="0.31354166666666666" />
+        <entry key="app/src/main/res/layout/fragment_pairs_list.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_poplar.xml" value="0.31354166666666666" />
+        <entry key="app/src/main/res/layout/fragment_popular.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_sort_selection.xml" value="0.14564336372847012" />
+        <entry key="app/src/main/res/layout/item_popular.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/main_menu.xml" value="0.31354166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
