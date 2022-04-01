@@ -240,6 +240,5 @@ class PairsFragment : Fragment(R.layout.fragment_pairs_list),
         pairsListProgressBar.isInvisible = true
 
         pairs?.let { currencyPairsAdapter.setData(pairs) }
-        pairsList.smoothScrollToPosition(0)
     }
 }
